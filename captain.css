@@ -1,0 +1,74 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0%;
+	background-color: #002b82;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circulo1 {
+	width: 460px;
+	height: 460px;
+	background-color: #ff4040;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circulo2 {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circulo3 {
+	width: 340px;
+	height: 340px;
+	background-color: #ff4040;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centro {
+	width: 270px;
+	height: 270px;
+	background-color: #306fd4;
+	border-radius: 50%;
+	position: relative;
+}
+
+.flecha {
+	position: absolute;
+	border-top: 60px solid white;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 120px solid transparent;
+	width: 0;
+	height: 0;
+}
+
+.topo {
+	top: 80px;
+	left: 15px;
+}
+
+.esquerda {
+	top: 60px;
+	left: -33px;
+	transform: rotate(72deg);
+}
+
+.direita {
+	top: 60px;
+	left: 64px;
+	transform: rotate(-72deg);
+}
